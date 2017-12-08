@@ -1,0 +1,294 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Quality attributes &mdash; Norwegian Fracture Registry Guidebook 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="Norwegian Fracture Registry Guidebook 0.1 documentation" href="index.html"/>
+        <link rel="next" title="Constraints" href="constraints.html"/>
+        <link rel="prev" title="Functional overview" href="functional_overview.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Norwegian Fracture Registry Guidebook
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="context.html">Context</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functional_overview.html">Functional overview</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Quality attributes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#performance">Performance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#flow">Flow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#usefulness-utility">Usefulness/utility</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="constraints.html">Constraints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="principles.html">Principles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="external_interfaces.html">External interfaces</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code.html">Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data.html">Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure.html">Infrastructure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="deployment.html">Deployment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="technology_selection.html">Technology selection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="topics/index.html">Points of interest</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Norwegian Fracture Registry Guidebook</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Quality attributes</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/quality_attributes.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="quality-attributes">
+<span id="quality-attributes"></span><h1>Quality attributes<a class="headerlink" href="#quality-attributes" title="Permalink to this headline">¶</a></h1>
+<p>The primary quality attributes that drive Fracreg are performance, flow, and
+usefulness. We are keenly aware that the users of Fracreg already have a lot
+of work to do associated with any particular patient or procedure, and any extra
+work (i.e. entering data into Fracreg) will be seen as a nuisance. If Fracreg is
+seen as too much of a nuisance users might decide not to use it, and this would
+render the registry pointless.</p>
+<div class="section" id="performance">
+<span id="performance"></span><h2>Performance<a class="headerlink" href="#performance" title="Permalink to this headline">¶</a></h2>
+<p>We want Fracreg to be fast so that users will be able to integrate it into their
+workflow with minimum disruption. So when users use Fracreg they need to be able
+to enter and save data quickly; seconds matter to our users, so we want the
+registry to feel as fluid and &#8220;there&#8221; as possible.</p>
+<p>At the same time, we want users to be able to navigate through the registry
+quickly. In particular, they need to be able to peruse patient history quickly
+in order to understand the details of a patient&#8217;s past fractures and treatments.
+Providing responsive navigation has been a major driver of the design of the
+registry, and it&#8217;s the major reason that the registry deviates from standard MRS
+design in some ways.</p>
+</div>
+<div class="section" id="flow">
+<span id="flow"></span><h2>Flow<a class="headerlink" href="#flow" title="Permalink to this headline">¶</a></h2>
+<p>As part of the effort to entice users to use Fracreg - or at least not scare
+them off! - we want it to work the way they work. We&#8217;ve gone to some lengths to
+ensure that the &#8220;flow&#8221; through the system aligns with the way the users perceive
+the work they&#8217;re doing. For example, we have tried to put fields in the
+&#8220;correct&#8221; order on a page, and we&#8217;ve tried to place buttons in places where they
+would be found in natural order. We&#8217;ve even got places where were automatically
+guide the user to forms.</p>
+</div>
+<div class="section" id="usefulness-utility">
+<span id="usefulness-utility"></span><h2>Usefulness/utility<a class="headerlink" href="#usefulness-utility" title="Permalink to this headline">¶</a></h2>
+<p>As mentioned earlier, we are sensitive to being seen as a burden to our users.
+As such, we&#8217;ve worked to make Fracreg positively useful for the users. That is,
+instead of just making Fracreg a high-performance chore (but a chore
+nonetheless), we&#8217;ve tried to give it &#8220;carrots&#8221; that actually motivate users to
+use the system. For example, Fracreg has a system by which it can calculate
+ICD-10 codes based on the information entered for an injury. This can
+save the user a great deal of time, and as such they&#8217;ll (hopefully!) view
+Fracreg interaction as a net positive rather than a chore.</p>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="constraints.html" class="btn btn-neutral float-right" title="Constraints" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="functional_overview.html" class="btn btn-neutral" title="Functional overview" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Austin Bingham.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,330 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>The skeleton selector &mdash; Norwegian Fracture Registry Guidebook 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Norwegian Fracture Registry Guidebook 0.1 documentation" href="../index.html"/>
+        <link rel="up" title="Points of interest" href="index.html"/>
+        <link rel="next" title="The form index" href="form_index.html"/>
+        <link rel="prev" title="The classification dialog" href="classification_form.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Norwegian Fracture Registry Guidebook
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../context.html">Context</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functional_overview.html">Functional overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quality_attributes.html">Quality attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../constraints.html">Constraints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../principles.html">Principles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../external_interfaces.html">External interfaces</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../code.html">Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data.html">Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure.html">Infrastructure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deployment.html">Deployment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology_selection.html">Technology selection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../testing.html">Testing</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Points of interest</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="fracture_codes.html">Fracture codes and AO codes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fracture_classification_specs.html">Fracture classification specifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="coding_metadata.html">NCSP and ICD10 metadata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="classification_form.html">The classification dialog</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">The skeleton selector</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#tl-dr">TL;DR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-svg">The SVG</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-directive">The directive</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="form_index.html">The form index</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_preloading.html">Data pre-loading</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Norwegian Fracture Registry Guidebook</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Points of interest</a> &raquo;</li>
+        
+      <li>The skeleton selector</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/topics/skeleton_selector.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="the-skeleton-selector">
+<span id="the-skeleton-selector"></span><h1>The skeleton selector<a class="headerlink" href="#the-skeleton-selector" title="Permalink to this headline">¶</a></h1>
+<p>The <em>skeleton selector</em> is the picture of the skeleton displayed on the fracture
+form. When you click on its various bone segments Fracreg displays a dialog for
+selecting fractures relevant to that segment. It&#8217;s designed to make it easy for
+users to accurately select fractures, but underneath its friendly exterior lies
+a fair amount of complexity that could use a little explanation.</p>
+<div class="section" id="tl-dr">
+<span id="tl-dr"></span><h2>TL;DR<a class="headerlink" href="#tl-dr" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>The selector comprises an SVG image and an Angular directive.</li>
+<li>The top layer of the SVG contains invisible regions corresponding to
+clickable bone segments.</li>
+<li>The clickable regions are specially labelled so that the <code class="docutils literal"><span class="pre">skeleton-selector</span></code>
+directive can identify them.</li>
+<li>The directive attaches click and hover handlers to the clickable regions.</li>
+<li>The directive manages the <em>face</em> (visual settings) of the clickable regions
+based on their current states.</li>
+<li>The click handlers trigger the classification dialogs, and the results of
+classification are passed to a function which is supplied to the directive.</li>
+</ul>
+</div>
+<div class="section" id="the-svg">
+<span id="the-svg"></span><h2>The SVG<a class="headerlink" href="#the-svg" title="Permalink to this headline">¶</a></h2>
+<p>The SVG skeleton image defines the clickable regions of the selector. There are
+two layers of the skeleton that are important. First, there&#8217;s a bottom layer
+that contains the actual visible rendering of the skeleton. Fracreg displays
+this layer, but it doesn&#8217;t interact with or manipulate it in any real way
+(except to gray out elements when the selector is disabled).</p>
+<p>The second, more interesting layer is the <em>click layer</em>, and it sits above the
+first. This layer is invisible, and it consists of regions that lie directly
+over the various bone segments we&#8217;ve defined on the skeleton. So, for example,
+there&#8217;s an invisible region directly over the left proximal femur and another
+over the right humerus shaft. The point of these invisible regions is that we
+can programatically attach click handlers to them in the <code class="docutils literal"><span class="pre">skeleton-selector</span></code>&#8216;s
+code.</p>
+<p>In order to make these regions identifiable in the directive&#8217;s code, we have
+encoded their bone segment details into their IDs. The naming pattern is like
+this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">fracture</span><span class="o">-</span><span class="n">clickable</span><span class="o">-&lt;</span><span class="n">AO</span> <span class="n">prefix</span><span class="o">&gt;-&lt;</span><span class="n">side</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal"><span class="pre">AO</span> <span class="pre">prefix</span></code> part is a two-digit bone-segment prefix from the AO
+classification system. The <code class="docutils literal"><span class="pre">side</span></code> part is one of <code class="docutils literal"><span class="pre">left</span></code> or <code class="docutils literal"><span class="pre">right</span></code> to indicate
+which side of the body the bone lies on. To continue our example from above,
+since the AO prefix for the proximal femur is 31 the left proximal femur&#8217;s
+region has the ID <code class="docutils literal"><span class="pre">fracture-clickable-31-left</span></code>.</p>
+</div>
+<div class="section" id="the-directive">
+<span id="the-directive"></span><h2>The directive<a class="headerlink" href="#the-directive" title="Permalink to this headline">¶</a></h2>
+<p>Most of the directive is fairly self-explanatory, but a little orientation is in
+order. The directive&#8217;s <code class="docutils literal"><span class="pre">link</span></code> function does the heavy lifting of scanning the
+SVG, locating clickable regions, attaching click and hover handlers, and
+otherwise making it interactive.</p>
+<p>It first locates all visible elements in the image (technically, all <em>paths</em>).
+It then also finds those elements which have a click-region ID. It uses the
+<code class="docutils literal"><span class="pre">data</span></code> attributes of the elements to store information about the original face
+of the element (opacity, fill, and stroke). Finally, it attaches handlers that:</p>
+<ul class="simple">
+<li>convert region clicks to function calls</li>
+<li>use hover handlers to update the faces of the clickable regions</li>
+</ul>
+<p>This is how the regions turn green/grey/etc. as you interact with them.</p>
+<p>The code is reasonably well documented, so hopefully this helps pull it all
+together.</p>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="form_index.html" class="btn btn-neutral float-right" title="The form index" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="classification_form.html" class="btn btn-neutral" title="The classification dialog" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Austin Bingham.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.1',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

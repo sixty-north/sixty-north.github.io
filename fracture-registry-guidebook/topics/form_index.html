@@ -1,0 +1,389 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>The form index &mdash; Norwegian Fracture Registry Guidebook 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Norwegian Fracture Registry Guidebook 0.1 documentation" href="../index.html"/>
+        <link rel="up" title="Points of interest" href="index.html"/>
+        <link rel="next" title="Data pre-loading" href="data_preloading.html"/>
+        <link rel="prev" title="The skeleton selector" href="skeleton_selector.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Norwegian Fracture Registry Guidebook
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../context.html">Context</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functional_overview.html">Functional overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quality_attributes.html">Quality attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../constraints.html">Constraints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../principles.html">Principles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../external_interfaces.html">External interfaces</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../code.html">Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data.html">Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure.html">Infrastructure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deployment.html">Deployment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology_selection.html">Technology selection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../testing.html">Testing</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Points of interest</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="fracture_codes.html">Fracture codes and AO codes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fracture_classification_specs.html">Fracture classification specifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="coding_metadata.html">NCSP and ICD10 metadata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="classification_form.html">The classification dialog</a></li>
+<li class="toctree-l2"><a class="reference internal" href="skeleton_selector.html">The skeleton selector</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">The form index</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#entrybase-and-subclasses"><code class="docutils literal"><span class="pre">EntryBase</span></code> and subclasses</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#subclass-use-of-property-accessors">Subclass use of property accessors</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#using-entries">Using entries</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#apis">APIs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#factories">Factories</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="data_preloading.html">Data pre-loading</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Norwegian Fracture Registry Guidebook</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Points of interest</a> &raquo;</li>
+        
+      <li>The form index</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/topics/form_index.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="the-form-index">
+<span id="the-form-index"></span><h1>The form index<a class="headerlink" href="#the-form-index" title="Permalink to this headline">¶</a></h1>
+<p>The <code class="docutils literal"><span class="pre">FormIndex</span></code> is one of the central data structures in the fracture registry.
+It is the &#8220;container&#8221; for all of the form data that we pull over from the
+server. It provides two primary ways of navigating the forms:</p>
+<ol class="simple">
+<li>You can navigate the forms as a tree structure. For example, you can navigate
+from a fracture to its child fracture-bones and procedures.</li>
+<li>You can query specific types of forms without worrying about the tree
+structure. For example, you could ask for all secondary-fixations without
+reference to their parent forms.</li>
+</ol>
+<div class="section" id="entrybase-and-subclasses">
+<span id="entrybase-and-subclasses"></span><h2><code class="docutils literal"><span class="pre">EntryBase</span></code> and subclasses<a class="headerlink" href="#entrybase-and-subclasses" title="Permalink to this headline">¶</a></h2>
+<p>Each type of form in the registry &#8212; incidents, fracture, classifications, etc.
+&#8212; has an associated &#8220;entry&#8221; type in the <code class="docutils literal"><span class="pre">FormIndex</span></code>. An entry instance serves
+a few related roles:</p>
+<ol class="simple">
+<li>It contains the forms actual underlying data as fetched from the server.</li>
+<li>It refers to the repository instance used to communicate with the server
+about forms of that type.</li>
+<li>It stores any validation errors associated with the form.</li>
+<li>It monitors changes to the form&#8217;s data and initiates communication with the
+server to save those changes as necessary.</li>
+</ol>
+<p>The <code class="docutils literal"><span class="pre">EntryBase</span></code> class is the base class for all entry types. It stores the
+form&#8217;s raw data in it&#8217;s <code class="docutils literal"><span class="pre">_data</span></code> member, but users should never access this
+directly. Instead they should access the <code class="docutils literal"><span class="pre">data</span></code> member. <code class="docutils literal"><span class="pre">data</span></code> is given the same
+attributes as <code class="docutils literal"><span class="pre">_data</span></code>, but each is a property that proxies for the associated
+attribute on <code class="docutils literal"><span class="pre">_data</span></code> and tracks when changes occur, triggering saves as
+necessary.</p>
+<p>Each specific type of form has an <code class="docutils literal"><span class="pre">EntryBase</span></code> subclass. At a minimum these
+subclasses are responsible for initializing <code class="docutils literal"><span class="pre">EntryBase</span></code> with the correct
+repository reference. For example, <code class="docutils literal"><span class="pre">IncidentEntry</span></code> initializes <code class="docutils literal"><span class="pre">EntryBase</span></code> with
+<code class="docutils literal"><span class="pre">Incidentrepository</span></code>.</p>
+<p>Subclasses are also responsible for constructing the &#8220;tree&#8221; of forms, though the
+way in which this is manages is a bit goofy. For example, <code class="docutils literal"><span class="pre">IncidentEntry</span></code>
+defines an attribute called <code class="docutils literal"><span class="pre">fractures</span></code> which it initializes to an empty list.
+The point of this list is to hold all of the <code class="docutils literal"><span class="pre">FractureEntry</span></code>s that are children
+of the <code class="docutils literal"><span class="pre">IncidentEntry</span></code>. These child lists are only populated, however, by a
+different set of elements in the form-index, the so-called &#8220;API&#8221;s which we&#8217;ll
+look at soon.</p>
+<div class="section" id="subclass-use-of-property-accessors">
+<span id="subclass-use-of-property-accessors"></span><h3>Subclass use of property accessors<a class="headerlink" href="#subclass-use-of-property-accessors" title="Permalink to this headline">¶</a></h3>
+<p>The <code class="docutils literal"><span class="pre">data</span></code> attribute&#8217;s properties were initially created only to track attribute
+modification and determine when to save a form. However, it turned out the be
+convenient to use these properties for enforcing constraints on forms as well.
+For example, the <code class="docutils literal"><span class="pre">IncidentEntry</span></code> overrides the <code class="docutils literal"><span class="pre">setAttr</span></code> method in order to
+ensure that <code class="docutils literal"><span class="pre">TransportMode</span></code> and <code class="docutils literal"><span class="pre">InjuryLocation</span></code> are synchronized. Other entries
+do similar things.</p>
+<p>This seems like a reasonable use of properties and overriding, but I could be
+way off base here. If it turns out to be a bad idea, we&#8217;ll need to find an
+alternative.</p>
+</div>
+<div class="section" id="using-entries">
+<span id="using-entries"></span><h3>Using entries<a class="headerlink" href="#using-entries" title="Permalink to this headline">¶</a></h3>
+<p>Entries are used widely throughout the registry code since they hold the form
+data. They can be obtained via querying the various form-specific APIs on the
+registry (e.g. looking up a fracture by its form ID) or by traversing the tree
+(i.e. by iterating through the <code class="docutils literal"><span class="pre">fractures</span></code> attribute of an <code class="docutils literal"><span class="pre">IncidentEntry</span></code>).</p>
+<p>As mentioned earlier, users should never access the form&#8217;s data via the <code class="docutils literal"><span class="pre">_data</span></code>
+attribute. They should instead use <code class="docutils literal"><span class="pre">data</span></code>. They should also never directly
+modify the &#8220;children&#8221; lists such as <code class="docutils literal"><span class="pre">IncidentEntry.fractures</span></code>. Those should
+generally only be modified via the various form factories (discussed later).</p>
+</div>
+</div>
+<div class="section" id="apis">
+<span id="apis"></span><h2>APIs<a class="headerlink" href="#apis" title="Permalink to this headline">¶</a></h2>
+<p>The public attributes of <code class="docutils literal"><span class="pre">FormIndex</span></code> are all APIs for accessing the various
+types of forms in the registry. So the index has attributes like <code class="docutils literal"><span class="pre">fracture</span></code>,
+<code class="docutils literal"><span class="pre">procedure</span></code>, and <code class="docutils literal"><span class="pre">outpatientBoneProcedure</span></code>...one for each form type. Each of
+these provides the same set of functions:</p>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">all</span></code> - a list of all forms of that type.</li>
+<li><code class="docutils literal"><span class="pre">add</span></code> - add a form to the index.</li>
+<li><code class="docutils literal"><span class="pre">find</span></code> - find a form of the associated type by ID.</li>
+<li><code class="docutils literal"><span class="pre">remove</span></code> - remove a form from the index by ID.</li>
+</ul>
+<p>There are two types of APIs, <code class="docutils literal"><span class="pre">RootApi</span></code> and <code class="docutils literal"><span class="pre">NestedApi</span></code>. <code class="docutils literal"><span class="pre">RootApi</span></code> instances for
+for forms which don&#8217;t have parent forms (in MRS terms, these are non-attached
+forms), and they need to interact directly with the <code class="docutils literal"><span class="pre">FormIndex._forms</span></code> object in
+order to store their forms.</p>
+<p><code class="docutils literal"><span class="pre">NestedApi</span></code> instances are for forms which do have a parent. They are
+instantiated with two strings, the name of the form-index attribute under which
+they are nested, and the name of their parent &#8220;entry&#8221; type&#8217;s attribute to use
+for storing forms. For example, the <code class="docutils literal"><span class="pre">NestedApi</span></code> for fractures is told that it&#8217;s
+nested under <code class="docutils literal"><span class="pre">incident</span></code> and that it should store its entries on the <code class="docutils literal"><span class="pre">fractures</span></code>
+list of <code class="docutils literal"><span class="pre">IncidentEntry</span></code>.</p>
+<p>This relationship between entries and APIs might seem a bit strained, and
+perhaps there&#8217;s a more elegant way. Things work well enough the way they are
+now, though, and I haven&#8217;t been able to justify the time to really investigate
+making things better.</p>
+</div>
+<div class="section" id="factories">
+<span id="factories"></span><h2>Factories<a class="headerlink" href="#factories" title="Permalink to this headline">¶</a></h2>
+<p>While <code class="docutils literal"><span class="pre">FormIndex</span></code>, entries, and APIs are about storing and querying forms, the
+various form factories (form-factories.js) are about creating a deleting form in
+a controlled manner. The basic rule is that all form creation and deletion
+should be done through the correct factory. So to create a new procedure, use
+<code class="docutils literal"><span class="pre">ProcedureFormFactory.create()</span></code>. Similarly, to delete a consultation, use
+<code class="docutils literal"><span class="pre">ConsultationFormFactory.delete()</span></code>.</p>
+<p>A&gt; Note the distinction between &#8220;creation&#8221; and &#8220;instantiation&#8221;. We instantiate a
+A&gt; form when we fetch its data from the server and insert it into the <code class="docutils literal"><span class="pre">FormIndex</span></code>.
+A&gt; There can be, in principle, many instances of a single form at any given time
+A&gt; (though we don&#8217;t do that in the fracture registry). We only <em>create</em> a form
+A&gt; once. This creates a new ID for the form and establishes that the form exists.
+A&gt; This distinction should not cause and problem in practice in the fracture
+A&gt; registry, but I want to make clear that factories are for creation and deletion,
+A&gt; not instantiation.</p>
+<p>Factories know how to coordinate between repositories and form-index. They can
+ask the repository (i.e. the server) to create a new form, and then, when the
+data for that form arrives, they can insert it correctly into the index.
+Critically, they know how coordinate the creation of multiple related forms. For
+example, when a procedure is created we need to ensure that it gets a
+bone-procedure for each bone in the procedure&#8217;s parent fracture. The
+<code class="docutils literal"><span class="pre">ProcedureFormFactory</span></code> ensures that this is done properly.</p>
+<p>Likewise, factories are responsible for coordinating the deletion of forms. For
+example, when we delete an incident we need to delete all of its child forms:
+fractures, procedures, etc. The factories take care of this as well (often
+relying on transitive deletion by delegating to each other).</p>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="data_preloading.html" class="btn btn-neutral float-right" title="Data pre-loading" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="skeleton_selector.html" class="btn btn-neutral" title="The skeleton selector" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Austin Bingham.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.1',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
